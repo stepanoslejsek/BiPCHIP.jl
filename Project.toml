@@ -1,0 +1,13 @@
+name = "BiPCHIP"
+uuid = "8458cfa5-3121-4924-9858-a90f7c271906"
+authors = ["Stepan Oslejsek"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
